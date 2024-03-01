@@ -1,12 +1,15 @@
 const form = document.getElementById('formVerific')
 
-form.addEventListener('submit', function(e){
-    let formEValido = false
+
+function validaNum(valor1, valor2){
+        return valor1 > valor2;
+}
+
+form.addEventListener('submit', function(e){ // (e) simboliza um evento
     e.preventDefault();
 
-    const valorUm = document.getElementById('primeiroValor')
-    const valorDois = document.getElementById('segundoValor')
-    const mensagemSucesso = `O valor <b>${valorDois.value}</b> é maior que o valor <b>${valorUm,value}</b>`
-
-    
+    const primeiro_valor = document.getElementById('primeiroValor');
+    if (!validaNum)
 })
+console.log(form)
+
