@@ -50,9 +50,11 @@ button:hover {
 }
 
 .successMessage {
-    background-color: #27ae60;
+    font-size: 12px;
     padding: 8px;
+    background-color: #27ae60;
     color: #fff; 
+    margin-bottom: 8px;
     display: none;
 }
 
@@ -61,6 +63,15 @@ button:hover {
     padding: 8px;
     background-color: red;
     color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.sameMessage {
+    font-size: 12px;
+    padding: 8px;
+    background-color: blue;
+    color: #FFF;
     margin-bottom: 8px;
     display: none;
 }
